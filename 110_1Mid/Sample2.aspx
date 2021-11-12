@@ -43,8 +43,9 @@
             </asp:RadioButtonList>
             <asp:TextBox ID="tb_Des" runat="server" Width="400px" Visible="False"></asp:TextBox><br />
             <asp:Button ID="btn_Submit" runat="server" Text="送出" />
+            <asp:Label ID="Ib_Msg" runat="server" Text=""></asp:Label>
+
         </div>
-   
     </form>
 </body>
 </html>
